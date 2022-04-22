@@ -19,4 +19,53 @@ p {
   margin-bottom: 16px;
 }
 
+#app {
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: PTSerif-Bold;
+  src: url(fonts/PTSerif-Bold.ttf);
+}
+@font-face {
+  font-family: PTSerif-BoldItalic;
+  src: url(fonts/PTSerif-BoldItalic.ttf);
+}
+@font-face {
+  font-family: PTSerif-Italic;
+  src: url(fonts/PTSerif-Italic.ttf);
+}
+@font-face {
+  font-family: PTSerif-Regular;
+  src: url(fonts/PTSerif-Regular.ttf);
+}
+nav {
+  height: 92.5px;
+  max-width: 980px;
+  background-color: aquamarine;
+  margin: 0 auto;
+  display: flex;
+  border-bottom: 2px solid burlywood;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .nav-logo {
+  width: 92px;
+  height: 42px;
+  background-image: url(../images/logo/logo-white.png);
+  margin-top: 9.5px;
+}
+nav .nav-links {
+  margin-top: 10.5px;
+}
+nav .nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+nav .nav-links span {
+  color: #ee4367;
+  margin: 0 13.5px;
+}
+
 /*# sourceMappingURL=styles.css.map */

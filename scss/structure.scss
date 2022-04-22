@@ -16,3 +16,29 @@ h6,
 p {
   margin-bottom: 16px;
 }
+
+#app {
+  margin: 0 auto;
+}
+
+// this area is for fonts
+
+@font-face {
+  font-family: PTSerif-Bold;
+  src: url(fonts/PTSerif-Bold.ttf);
+}
+
+@font-face {
+  font-family: PTSerif-BoldItalic;
+  src: url(fonts/PTSerif-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: PTSerif-Italic;
+  src: url(fonts/PTSerif-Italic.ttf);
+}
+
+@font-face {
+  font-family: PTSerif-Regular;
+  src: url(fonts/PTSerif-Regular.ttf);
+}
