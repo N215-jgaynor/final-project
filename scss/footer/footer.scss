@@ -1,0 +1,94 @@
+footer {
+  max-width: $banner-footer-width;
+  height: 455px;
+  background-color: $site-red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .footer-logo {
+    width: 92px;
+    height: 42px;
+    background-image: url(../images/logo/logo-white.png);
+  }
+
+  .footer-text {
+    color: white;
+    font-family: $secondary-font;
+    font-size: 16px;
+    text-align: center;
+
+    .footer-address {
+      margin: 46px auto 5px auto;
+    }
+
+    .footer-phone {
+      margin-bottom: 0px;
+    }
+
+    .footer-email {
+      margin: 5px auto 46px auto;
+    }
+  }
+
+  .footer-form {
+    height: 60px;
+    width: 696px;
+    background-color: yellow;
+    display: flex;
+
+    .footer-form-input {
+      width: 529px;
+      height: 100%;
+      background-color: #f56b88;
+      border: none;
+      padding: 20px;
+      color: white;
+    }
+    ::placeholder {
+      color: white;
+      opacity: 50%;
+    }
+
+    .footer-form-submit {
+      width: 167px;
+      height: 100%;
+      background-color: white;
+      font-family: $secondary-font;
+      color: $site-red;
+      text-align: center;
+
+      p {
+        margin-top: 21px;
+      }
+    }
+  }
+
+  .footer-media-links {
+    width: 156px;
+    height: 32px;
+    margin: 30px auto 46px auto;
+    display: flex;
+    justify-content: space-between;
+
+    .facebook-link {
+      @include footerSocialMedia("../images/social-media/facebook.svg");
+    }
+
+    .insta-link {
+      @include footerSocialMedia("../images/social-media/instagram.svg");
+    }
+
+    .twitter-link {
+      @include footerSocialMedia("../images/social-media/twitter.svg");
+    }
+  }
+
+  .footer-copyright {
+    color: white;
+    opacity: 50%;
+    font-family: $secondary-font;
+    font-size: 12px;
+  }
+}

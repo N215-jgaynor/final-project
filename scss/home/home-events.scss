@@ -4,8 +4,9 @@
   background-color: $site-purple;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 
-  .events-header {
+  .event-header {
     width: 392px;
     color: white;
     font-family: $secondary-font;
@@ -13,8 +14,64 @@
     margin-left: 40px;
   }
 
-  .events-container {
+  .event-header-underline {
+    width: 392px;
+    height: 2px;
+    background-color: white;
+    margin: -5px 0 34.5px 40px;
+  }
+
+  .event-container {
     display: flex;
     align-items: row;
+    justify-content: space-between;
+    height: 100px;
+    max-width: $banner-footer-width;
+    margin: 0 40px 60px 40px;
+
+    .event-box {
+      width: 230px;
+      height: 124px;
+      display: flex;
+
+      .event-box-date {
+        min-width: 60px;
+        height: 60px;
+        background-color: $site-red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        font-family: $secondary-font;
+
+        span {
+          margin-top: 10px;
+          font-size: 20px;
+          font-weight: bold;
+        }
+
+        p {
+          font-weight: lighter;
+          font-size: 12px;
+        }
+      }
+
+      .event-box-text {
+        letter-spacing: 0px;
+        margin-left: 20px;
+
+        .event-white-text {
+          color: white;
+          font-family: $secondary-font;
+          font-size: 15px;
+        }
+
+        .event-red-text {
+          color: $site-red;
+          font-family: $secondary-font;
+          font-size: 13px;
+        }
+      }
+    }
   }
 }

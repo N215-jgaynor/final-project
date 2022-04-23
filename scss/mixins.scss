@@ -1,5 +1,5 @@
 // this area is for buttons
-@mixin site-button($btnWidth: 122px, $btnHeight: 40px) {
+@mixin siteButton($btnWidth: 122px, $btnHeight: 40px) {
   height: $btnHeight;
   width: $btnWidth;
   background-color: $site-red;
@@ -11,4 +11,15 @@
   p {
     margin-top: 8px;
   }
+}
+
+// this area is for the footer
+@mixin footerSocialMedia($footerImage) {
+  height: 32px;
+  width: 32px;
+  background-image: url($footerImage);
+  filter: invert(100%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
