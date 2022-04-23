@@ -1,0 +1,44 @@
+.home-banner {
+  max-width: $banner-footer-width;
+  height: 500px;
+  margin-top: -92.5px;
+  background-image: linear-gradient(
+      rgba($site-yellow, 0.8),
+      rgba($site-yellow, 0.8)
+    ),
+    url(../images/home-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+
+  h1 {
+    font-family: $primary-font;
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  .banner-second-text {
+    font-family: $secondary-font;
+    font-style: italic;
+    color: $site-red;
+    margin-bottom: 50px;
+  }
+
+  .banner-third-text {
+    font-family: $secondary-font;
+    font-style: italic;
+    max-width: 520px;
+    margin-bottom: 50px;
+  }
+
+  .banner-button {
+    @include site-button;
+  }
+}

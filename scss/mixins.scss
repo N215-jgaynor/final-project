@@ -1,0 +1,14 @@
+// this area is for buttons
+@mixin site-button($btnWidth: 122px, $btnHeight: 40px) {
+  height: $btnHeight;
+  width: $btnWidth;
+  background-color: $site-red;
+  color: white;
+  cursor: pointer;
+  font-family: $secondary-font;
+  text-align: center;
+
+  p {
+    margin-top: 8px;
+  }
+}

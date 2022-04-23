@@ -4,9 +4,12 @@ nav {
   background-color: aquamarine;
   margin: 0 auto;
   display: flex;
-  border-bottom: 2px solid burlywood;
+  border-bottom: 2px solid #fff;
+  //   why is my border-bottom not showing up? Tried putting the negative margin in the nav and banner
   justify-content: space-between;
   align-items: center;
+  font-family: $secondary-font;
+  letter-spacing: $site-letter-spacing;
 
   .nav-logo {
     width: 92px;
@@ -26,6 +29,7 @@ nav {
     span {
       color: $site-red;
       margin: 0 13.5px;
+      font-size: 20px;
     }
   }
 }

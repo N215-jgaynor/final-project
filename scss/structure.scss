@@ -19,6 +19,7 @@ p {
 
 #app {
   margin: 0 auto;
+  letter-spacing: $site-letter-spacing;
 }
 
 // this area is for fonts
@@ -42,3 +43,15 @@ p {
   font-family: PTSerif-Regular;
   src: url(fonts/PTSerif-Regular.ttf);
 }
+
+@font-face {
+  font-family: GillSans-Regular;
+  font-weight: normal;
+  src: url(fonts/GillSans.ttc);
+}
+
+// @font-face {
+//   font-family: GillSans-Italic;
+//   font-weight: italic;
+//   src: url(fonts/GillSans.ttc);
+// }
