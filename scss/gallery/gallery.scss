@@ -1,0 +1,88 @@
+.gallery {
+  max-width: $content-width;
+  margin: 0 auto;
+
+  .gallery-header {
+    margin-top: 65.5px;
+    font-family: $secondary-font;
+    font-size: 25px;
+  }
+
+  .gallery-header-underline {
+    width: 229px;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 29.5px;
+  }
+
+  .gallery-container {
+    display: flex;
+    flex-direction: column;
+
+    .gallery-container-top {
+      display: flex;
+      justify-content: space-between;
+
+      .gallery-container-one {
+        width: 489px;
+        height: 187px;
+        background-image: linear-gradient(
+            rgba($site-yellow, 0.7),
+            rgba($site-yellow, 0.7)
+          ),
+          url(../images/gallery/1.png);
+        @include defaultImageStyling;
+      }
+
+      .gallery-container-two {
+        width: 187px;
+        height: 187px;
+        background-image: linear-gradient(
+            rgba($site-red, 0.7),
+            rgba($site-red, 0.7)
+          ),
+          url(../images/gallery/2.jpeg);
+        @include defaultImageStyling;
+      }
+
+      .gallery-container-three {
+        width: 265px;
+        height: 187px;
+        background-image: linear-gradient(
+            rgba($site-green, 0.7),
+            rgba($site-green, 0.7)
+          ),
+          url(../images/gallery/3.jpg);
+        @include defaultImageStyling;
+      }
+    }
+
+    .gallery-container-bottom {
+      margin: 20px 0 60px 0;
+      display: flex;
+      justify-content: space-between;
+
+      .gallery-container-four {
+        width: 603px;
+        height: 306px;
+        background-image: linear-gradient(
+            rgba($site-purple, 0.7),
+            rgba($site-purple, 0.7)
+          ),
+          url(../images/gallery/3.jpg);
+        @include defaultImageStyling;
+      }
+
+      .gallery-container-five {
+        width: 355px;
+        height: 306px;
+        background-image: linear-gradient(
+            rgba($site-aqua, 0.7),
+            rgba($site-aqua, 0.7)
+          ),
+          url(../images/gallery/5.png);
+        @include defaultImageStyling;
+      }
+    }
+  }
+}

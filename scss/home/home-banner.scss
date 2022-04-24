@@ -7,9 +7,7 @@
       rgba($site-yellow, 0.8)
     ),
     url(../images/home-hero.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  @include defaultImageStyling;
   display: flex;
   align-items: center;
   justify-content: center;

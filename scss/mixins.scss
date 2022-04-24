@@ -13,6 +13,13 @@
   }
 }
 
+// this area is for shortcuts
+@mixin defaultImageStyling() {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 // this area is for the footer
 @mixin footerSocialMedia($footerImage) {
   height: 32px;
