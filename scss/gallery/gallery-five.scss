@@ -1,0 +1,16 @@
+.gallery-five {
+  max-width: $content-width;
+  margin: 50.5px auto 73px auto;
+
+  .gallery-banner {
+    @include galleryBanner(
+      $site-aqua,
+      "../images/gallery/5.png",
+      115px,
+      50px,
+      172px
+    );
+    @include defaultImageStyling;
+  }
+  @include galleryText;
+}

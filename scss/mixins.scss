@@ -1,5 +1,5 @@
 // this area is for buttons
-@mixin siteButton($btnWidth: 122px, $btnHeight: 40px) {
+@mixin siteButton($btnWidth: 122px, $btnHeight: 40px, $pMargin: 8px) {
   height: $btnHeight;
   width: $btnWidth;
   background-color: $site-red;
@@ -9,7 +9,7 @@
   text-align: center;
 
   p {
-    margin-top: 8px;
+    margin-top: $pMargin;
   }
 }
 
@@ -18,6 +18,66 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+// this area is for the gallery
+@mixin galleryBanner(
+  $galBannerColor,
+  $galBannerImage,
+  $galBannerHeaderSize,
+  $galBannerHeaderMarginL,
+  $galBannerHeaderMarginT
+) {
+  min-height: 400px;
+  max-width: 980px;
+  background-image: linear-gradient(
+      rgba($galBannerColor, 0.7),
+      rgba($galBannerColor, 0.7)
+    ),
+    url($galBannerImage);
+  position: relative;
+
+  .gallery-banner-text {
+    display: flex;
+    font-family: $secondary-font;
+    color: $galBannerColor;
+    position: absolute;
+    bottom: 0;
+    text-shadow: 5px 5px 5px #00000016;
+    margin-bottom: -80px;
+
+    .gallery-banner-text-number {
+      font-size: 300px;
+    }
+
+    .gallery-banner-text-desc {
+      font-size: $galBannerHeaderSize;
+      // margin-top: 149px;
+      margin-top: $galBannerHeaderMarginT;
+      margin-left: $galBannerHeaderMarginL;
+    }
+  }
+}
+
+@mixin galleryText() {
+  .gallery-desc {
+    display: flex;
+    justify-content: space-between;
+    min-height: 133px;
+    margin-top: 50.5px;
+    font-family: $secondary-font;
+    font-weight: lighter;
+    font-style: italic;
+    // why is this so dark? not sure how to unlock the lighter fonts
+
+    .gallery-desc-left {
+      width: 490px;
+    }
+
+    .gallery-desc-right {
+      width: 451px;
+    }
+  }
 }
 
 // this area is for the footer

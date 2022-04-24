@@ -1,0 +1,64 @@
+.gallery-two {
+  max-width: $content-width;
+  margin: 50.5px auto 73px auto;
+
+  .gallery-banner {
+    @include galleryBanner(
+      $site-red,
+      "../images/gallery/2.jpeg",
+      140px,
+      36px,
+      149px
+    );
+    @include defaultImageStyling;
+  }
+  @include galleryText;
+}
+
+@media screen and (max-width: 1280px) {
+  .gallery-two {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 1175px) {
+  .gallery-two {
+    .gallery-banner {
+      @include galleryBanner(
+        $site-red,
+        "../images/gallery/2.jpeg",
+        110px,
+        35px,
+        178px
+      );
+    }
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .gallery-two {
+    .gallery-banner {
+      @include galleryBanner(
+        $site-red,
+        "../images/gallery/2.jpeg",
+        80px,
+        35px,
+        205px
+      );
+    }
+  }
+}
+
+@media screen and (max-width: 875px) {
+  .gallery-two {
+    .gallery-banner {
+      @include galleryBanner(
+        $site-red,
+        "../images/gallery/2.jpeg",
+        70px,
+        20px,
+        215px
+      );
+    }
+  }
+}
