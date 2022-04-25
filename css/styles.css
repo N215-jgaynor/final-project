@@ -380,6 +380,7 @@ nav .nav-links span {
   display: flex;
   justify-content: space-between;
   min-height: 133px;
+  width: 980px;
   margin-top: 50.5px;
   font-family: GillSans-Regular;
   font-weight: lighter;
@@ -395,6 +396,7 @@ nav .nav-links span {
 @media screen and (max-width: 1280px) {
   .gallery-one {
     max-width: 80%;
+    background-color: red;
   }
 }
 @media screen and (max-width: 1175px) {
@@ -506,6 +508,7 @@ nav .nav-links span {
   display: flex;
   justify-content: space-between;
   min-height: 133px;
+  width: 980px;
   margin-top: 50.5px;
   font-family: GillSans-Regular;
   font-weight: lighter;
@@ -632,6 +635,7 @@ nav .nav-links span {
   display: flex;
   justify-content: space-between;
   min-height: 133px;
+  width: 980px;
   margin-top: 50.5px;
   font-family: GillSans-Regular;
   font-weight: lighter;
@@ -758,6 +762,7 @@ nav .nav-links span {
   display: flex;
   justify-content: space-between;
   min-height: 133px;
+  width: 980px;
   margin-top: 50.5px;
   font-family: GillSans-Regular;
   font-weight: lighter;
@@ -770,6 +775,86 @@ nav .nav-links span {
   width: 451px;
 }
 
+@media screen and (max-width: 1280px) {
+  .gallery-four {
+    max-width: 80%;
+  }
+}
+@media screen and (max-width: 1175px) {
+  .gallery-four .gallery-banner {
+    min-height: 400px;
+    max-width: 980px;
+    background-image: linear-gradient(rgba(238, 67, 103, 0.7), rgba(238, 67, 103, 0.7)), url("../images/gallery/2.jpeg");
+    position: relative;
+  }
+  .gallery-four .gallery-banner .gallery-banner-text {
+    display: flex;
+    font-family: GillSans-Regular;
+    color: #ee4367;
+    position: absolute;
+    bottom: 0;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.0862745098);
+    margin-bottom: -80px;
+  }
+  .gallery-four .gallery-banner .gallery-banner-text .gallery-banner-text-number {
+    font-size: 300px;
+  }
+  .gallery-four .gallery-banner .gallery-banner-text .gallery-banner-text-desc {
+    font-size: 110px;
+    margin-top: 178px;
+    margin-left: 35px;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .gallery-four .gallery-banner {
+    min-height: 400px;
+    max-width: 980px;
+    background-image: linear-gradient(rgba(238, 67, 103, 0.7), rgba(238, 67, 103, 0.7)), url("../images/gallery/2.jpeg");
+    position: relative;
+  }
+  .gallery-four .gallery-banner .gallery-banner-text {
+    display: flex;
+    font-family: GillSans-Regular;
+    color: #ee4367;
+    position: absolute;
+    bottom: 0;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.0862745098);
+    margin-bottom: -80px;
+  }
+  .gallery-four .gallery-banner .gallery-banner-text .gallery-banner-text-number {
+    font-size: 300px;
+  }
+  .gallery-four .gallery-banner .gallery-banner-text .gallery-banner-text-desc {
+    font-size: 80px;
+    margin-top: 205px;
+    margin-left: 35px;
+  }
+}
+@media screen and (max-width: 875px) {
+  .gallery-four .gallery-banner {
+    min-height: 400px;
+    max-width: 980px;
+    background-image: linear-gradient(rgba(238, 67, 103, 0.7), rgba(238, 67, 103, 0.7)), url("../images/gallery/2.jpeg");
+    position: relative;
+  }
+  .gallery-four .gallery-banner .gallery-banner-text {
+    display: flex;
+    font-family: GillSans-Regular;
+    color: #ee4367;
+    position: absolute;
+    bottom: 0;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.0862745098);
+    margin-bottom: -80px;
+  }
+  .gallery-four .gallery-banner .gallery-banner-text .gallery-banner-text-number {
+    font-size: 300px;
+  }
+  .gallery-four .gallery-banner .gallery-banner-text .gallery-banner-text-desc {
+    font-size: 70px;
+    margin-top: 215px;
+    margin-left: 20px;
+  }
+}
 .gallery-five {
   max-width: 980px;
   margin: 50.5px auto 73px auto;
@@ -804,6 +889,7 @@ nav .nav-links span {
   display: flex;
   justify-content: space-between;
   min-height: 133px;
+  width: 980px;
   margin-top: 50.5px;
   font-family: GillSans-Regular;
   font-weight: lighter;

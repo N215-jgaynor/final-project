@@ -14,3 +14,51 @@
   }
   @include galleryText;
 }
+
+@media screen and (max-width: 1280px) {
+  .gallery-four {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 1175px) {
+  .gallery-four {
+    .gallery-banner {
+      @include galleryBanner(
+        $site-red,
+        "../images/gallery/2.jpeg",
+        110px,
+        35px,
+        178px
+      );
+    }
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .gallery-four {
+    .gallery-banner {
+      @include galleryBanner(
+        $site-red,
+        "../images/gallery/2.jpeg",
+        80px,
+        35px,
+        205px
+      );
+    }
+  }
+}
+
+@media screen and (max-width: 875px) {
+  .gallery-four {
+    .gallery-banner {
+      @include galleryBanner(
+        $site-red,
+        "../images/gallery/2.jpeg",
+        70px,
+        20px,
+        215px
+      );
+    }
+  }
+}
