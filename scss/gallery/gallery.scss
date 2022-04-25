@@ -21,7 +21,6 @@
 
     .gallery-container-top {
       display: flex;
-      justify-content: space-between;
 
       .gallery-container-one {
         width: 489px;
@@ -32,17 +31,19 @@
           ),
           url(../images/gallery/1.png);
         @include defaultImageStyling;
+        display: block;
       }
 
       .gallery-container-two {
-        width: 187px;
-        height: 187px;
+        min-width: 187px;
+        min-height: 187px;
         background-image: linear-gradient(
             rgba($site-red, 0.7),
             rgba($site-red, 0.7)
           ),
           url(../images/gallery/2.jpeg);
         @include defaultImageStyling;
+        margin: 0px 20px;
       }
 
       .gallery-container-three {
@@ -60,7 +61,6 @@
     .gallery-container-bottom {
       margin: 20px 0 60px 0;
       display: flex;
-      justify-content: space-between;
 
       .gallery-container-four {
         width: 603px;
@@ -69,8 +69,9 @@
             rgba($site-purple, 0.7),
             rgba($site-purple, 0.7)
           ),
-          url(../images/gallery/3.jpg);
+          url(../images/gallery/4.jpg);
         @include defaultImageStyling;
+        margin-right: 23px;
       }
 
       .gallery-container-five {
@@ -86,3 +87,56 @@
     }
   }
 }
+
+@media screen and (max-width: 1280px) {
+  .gallery {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .gallery-container-one {
+    // max-width: 200px;
+  }
+
+  .gallery-container-three {
+    min-width: 187px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .gallery-container-top {
+    margin: 0 10px;
+    justify-content: space-between;
+
+    .gallery-container-one {
+      min-width: 187px;
+    }
+
+    .gallery-container-three {
+      max-width: 187px;
+    }
+  }
+
+  .gallery-container-bottom {
+    justify-content: space-between;
+
+    .gallery-container-four {
+      max-width: 320px;
+      margin-left: 10px;
+    }
+
+    .gallery-container-five {
+      max-width: 370px;
+      margin-right: 10px;
+    }
+  }
+}
+
+// @media screen and (max-width: 900px) {
+//   .gallery {
+//     .gallery-header {
+//       max-width: 720px;
+//     }
+//   }
+// }

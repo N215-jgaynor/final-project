@@ -132,17 +132,45 @@ var galleryContent = `<div class="gallery">
 <div class="gallery-header-underline"></div>
 <div class="gallery-container">
   <div class="gallery-container-top">
-    <div class="gallery-container-one"></div>
-    <div class="gallery-container-two"></div>
-    <div class="gallery-container-three"></div>
+    <a href="#galleryOne" class="gallery-container-one"> </a>
+    <a href="#gallery-two" class="gallery-container-two"></a>
+    <a href="#gallery-three" class="gallery-container-three"></a>
   </div>
   <div class="gallery-container-bottom">
-    <div class="gallery-container-four"></div>
-    <div class="gallery-container-five"></div>
+    <a href="#gallery-four" class="gallery-container-four"></a>
+    <a href="#gallery-five" class="gallery-container-five"></a>
   </div>
 </div>
+</div>`;
+
+var galleryOneContent = `<div class="gallery-one">
+<div class="gallery-banner">
+  <div class="gallery-banner-text">
+    <h1 class="gallery-banner-text-number">1.</h1>
+    <h1 class="gallery-banner-text-desc">food festival</h1>
+  </div>
 </div>
-`;
+<div class="gallery-desc">
+  <div class="gallery-desc-left">
+    <p>
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+      accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+      quae ab illo inventore veritatis et quasi architecto beatae vitae
+      dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+      aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+      eos qui ratione voluptatem sequi nesciunt.
+    </p>
+  </div>
+  <div class="gallery-desc-right">
+    <p>
+      Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+      consectetur, adipisci velit, sed quia non numquam eius modi
+      tempora incidunt ut labore et dolore magnam aliquam quaerat
+      voluptatem.
+    </p>
+  </div>
+</div>
+</div>`;
 
 export function modelPageName(pgName) {
   console.log(pgName);
