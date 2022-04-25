@@ -6,9 +6,9 @@ var homeContent = `<div class="home">
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat
     aliquid minus nemo sed est.
   </p>
-  <div class="banner-button">
+  <a href="#about" class="banner-button">
     <p>Read More</p>
-  </div>
+  </a>
 </div>
 <div class="home-content-text">
   <p class="home-content-text-paragraph">
@@ -286,6 +286,121 @@ var galleryFiveContent = `<div class="gallery-five">
       tempora incidunt ut labore et dolore magnam aliquam quaerat
       voluptatem.
     </p>
+  </div>
+</div>
+</div>`;
+
+var blogContent = `<div class="blog">
+<div class="blog-header">
+  <p>BLOG:</p>
+</div>
+<div class="blog-header-underline"></div>
+<div class="blog-container">
+  <div class="blog-container-top">
+    <div class="blog-box">
+      <div class="blog-box-date">
+        <span>06</span>
+        <p>JUN</p>
+      </div>
+      <div class="blog-box-content">
+        <div class="blog-box-content-img"></div>
+        <div class="blog-box-content-text">
+          <p class="blog-box-content-text-black">
+            Sed et persipiatis unde omnis iste natus
+          </p>
+          <p class="blog-box-content-text-red">
+            Sed ut perspiciatis unde omnis iste natus error sit
+            voluptatem accusantium doloremque laudantium, totam rem
+            aperiam, eaque ipsa quae ab illo inventore veritatis et
+            quasi architecto beatae vitae dicta sunt explicabo.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="blog-box">
+      <div class="blog-box-date">
+        <span>30</span>
+        <p>JUL</p>
+      </div>
+      <div class="blog-box-content">
+        <div class="blog-box-content-img"></div>
+        <div class="blog-box-content-text">
+          <p class="blog-box-content-text-black">
+            Sed et persipiatis unde omnis iste natus
+          </p>
+          <p class="blog-box-content-text-red">
+            Sed ut perspiciatis unde omnis iste natus error sit
+            voluptatem accusantium doloremque laudantium, totam rem
+            aperiam, eaque ipsa quae ab illo inventore veritatis et
+            quasi architecto beatae vitae dicta sunt explicabo.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="blog-container-middle">
+    <div class="blog-box">
+      <div class="blog-box-date">
+        <span>30</span>
+        <p>AUG</p>
+      </div>
+      <div class="blog-box-content">
+        <div class="blog-box-content-img"></div>
+        <div class="blog-box-content-text">
+          <p class="blog-box-content-text-black">
+            Sed et persipiatis unde omnis iste natus
+          </p>
+          <p class="blog-box-content-text-red">
+            Sed ut perspiciatis unde omnis iste natus error sit
+            voluptatem accusantium doloremque laudantium, totam rem
+            aperiam, eaque ipsa quae ab illo inventore veritatis et
+            quasi architecto beatae vitae dicta sunt explicabo.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="blog-box">
+      <div class="blog-box-date">
+        <span>23</span>
+        <p>NOV</p>
+      </div>
+      <div class="blog-box-content">
+        <div class="blog-box-content-img"></div>
+        <div class="blog-box-content-text">
+          <p class="blog-box-content-text-black">
+            Sed et persipiatis unde omnis iste natus
+          </p>
+          <p class="blog-box-content-text-red">
+            Sed ut perspiciatis unde omnis iste natus error sit
+            voluptatem accusantium doloremque laudantium, totam rem
+            aperiam, eaque ipsa quae ab illo inventore veritatis et
+            quasi architecto beatae vitae dicta sunt explicabo.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="blog-container-bottom">
+    <div class="blog-box">
+      <div class="blog-box-date">
+        <span>23</span>
+        <p>DEC</p>
+      </div>
+      <div class="blog-box-content">
+        <div class="blog-box-content-img"></div>
+        <div class="blog-box-content-text">
+          <p class="blog-box-content-text-black">
+            Sed et persipiatis unde omnis iste natus
+          </p>
+          <p class="blog-box-content-text-red">
+            Sed ut perspiciatis unde omnis iste natus error sit
+            voluptatem accusantium doloremque laudantium, totam rem
+            aperiam, eaque ipsa quae ab illo inventore veritatis et
+            quasi architecto beatae vitae dicta sunt explicabo.
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 </div>`;

@@ -7,6 +7,8 @@
   cursor: pointer;
   font-family: $secondary-font;
   text-align: center;
+  display: inline;
+  text-decoration: none;
 
   p {
     margin-top: $pMargin;
@@ -81,6 +83,67 @@
   }
 }
 
+// this area is for the blog
+@mixin blogDefaultStyling() {
+  .blog-box {
+    width: 460px;
+    min-height: 257px;
+    display: flex;
+
+    .blog-box-date {
+      height: 60px;
+      width: 60px;
+      background-color: $site-red;
+      background-color: $site-red;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: white;
+      font-family: $secondary-font;
+
+      span {
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      p {
+        font-weight: lighter;
+        font-size: 12px;
+      }
+    }
+
+    .blog-box-content {
+      margin-left: 20px;
+      width: 380px;
+
+      .blog-box-content-img {
+        width: 380px;
+        height: 140px;
+        background-image: url(../images/blog.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .blog-box-content-text {
+        font-family: $secondary-font;
+        letter-spacing: 0px;
+
+        .blog-box-content-text-black {
+          margin: 20px auto 11px 0;
+          font-size: 15px;
+        }
+
+        .blog-box-content-text-red {
+          font-size: 13px;
+          color: $site-red;
+        }
+      }
+    }
+  }
+}
+
 // this area is for the footer
 @mixin footerSocialMedia($footerImage) {
   height: 32px;
@@ -90,4 +153,5 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  display: block;
 }
