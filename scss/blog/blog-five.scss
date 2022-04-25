@@ -1,0 +1,17 @@
+.blog-five {
+  max-width: $content-width;
+  margin: 55.5px auto 151px auto;
+  @include blogCopy;
+}
+
+@media screen and (max-width: 1280px) {
+  .blog-five {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .blog-five {
+    max-width: 720px;
+  }
+}

@@ -1,0 +1,17 @@
+.blog-two {
+  max-width: $content-width;
+  margin: 55.5px auto 151px auto;
+  @include blogCopy;
+}
+
+@media screen and (max-width: 1280px) {
+  .blog-two {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .blog-two {
+    max-width: 720px;
+  }
+}

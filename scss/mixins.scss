@@ -89,6 +89,7 @@
     width: 460px;
     min-height: 257px;
     display: flex;
+    text-decoration: none;
 
     .blog-box-date {
       height: 60px;
@@ -133,12 +134,71 @@
         .blog-box-content-text-black {
           margin: 20px auto 11px 0;
           font-size: 15px;
+          color: black;
         }
 
         .blog-box-content-text-red {
           font-size: 13px;
           color: $site-red;
         }
+      }
+    }
+  }
+}
+
+@mixin blogCopy() {
+  .blog-banner {
+    height: 300px;
+    background-image: linear-gradient(
+        rgba($site-red, 0.6),
+        rgba($site-red, 0.6)
+      ),
+      url(../images/blog.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .blog-banner-date {
+      width: 155px;
+      height: 155px;
+      background-color: $site-red;
+      color: white;
+      font-family: $secondary-font;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      span {
+        font-size: 55px;
+        font-weight: bold;
+        margin-top: 26px;
+      }
+
+      p {
+        font-size: 31px;
+        font-weight: lighter;
+      }
+    }
+  }
+
+  .blog-repeat-content {
+    margin: 0 auto;
+    font-family: $secondary-font;
+    font-size: 20px;
+
+    .blog-repeat-content-one {
+      .blog-repeat-content-header {
+        color: $site-red;
+        letter-spacing: 0px;
+        margin-top: 57px;
+      }
+
+      .blog-repeat-content-desc {
+        font-weight: lighter;
+        margin-top: 33px;
       }
     }
   }

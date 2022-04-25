@@ -297,7 +297,7 @@ var blogContent = `<div class="blog">
 <div class="blog-header-underline"></div>
 <div class="blog-container">
   <div class="blog-container-top">
-    <div class="blog-box">
+    <a href="#blogOne" class="blog-box">
       <div class="blog-box-date">
         <span>06</span>
         <p>JUN</p>
@@ -316,8 +316,8 @@ var blogContent = `<div class="blog">
           </p>
         </div>
       </div>
-    </div>
-    <div class="blog-box">
+    </a>
+    <a href="#blogTwo" class="blog-box">
       <div class="blog-box-date">
         <span>30</span>
         <p>JUL</p>
@@ -336,10 +336,10 @@ var blogContent = `<div class="blog">
           </p>
         </div>
       </div>
-    </div>
+    </a>
   </div>
   <div class="blog-container-middle">
-    <div class="blog-box">
+    <a href="#blogThree" class="blog-box">
       <div class="blog-box-date">
         <span>30</span>
         <p>AUG</p>
@@ -358,8 +358,8 @@ var blogContent = `<div class="blog">
           </p>
         </div>
       </div>
-    </div>
-    <div class="blog-box">
+    </a>
+    <a href="#blogFour" class="blog-box">
       <div class="blog-box-date">
         <span>23</span>
         <p>NOV</p>
@@ -378,10 +378,10 @@ var blogContent = `<div class="blog">
           </p>
         </div>
       </div>
-    </div>
+    </a>
   </div>
   <div class="blog-container-bottom">
-    <div class="blog-box">
+    <a href="#blogFive" class="blog-box">
       <div class="blog-box-date">
         <span>23</span>
         <p>DEC</p>
@@ -400,8 +400,189 @@ var blogContent = `<div class="blog">
           </p>
         </div>
       </div>
-    </div>
+    </a>
   </div>
+</div>
+</div>`;
+
+var blogOneContent = `<div class="blog-one">
+<div class="blog-banner">
+  <div class="blog-banner-date">
+    <span>06</span>
+    <p>JUN</p>
+  </div>
+</div>
+<div class="blog-repeat-content">
+  <div class="blog-repeat-content-one">
+    <p class="blog-repeat-content-header">Header #1:</p>
+    <p class="blog-repeat-content-desc">
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+      accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+      quae ab illo inventore veritatis et quasi architecto beatae vitae
+      dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+      aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+      eos qui ratione voluptatem sequi nesciunt.
+    </p>
+    <p class="blog-repeat-content-desc">
+      Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+      consectetur, adipisci velit, sed quia non numquam eius modi
+      tempora incidunt ut labore et dolore magnam aliquam quaerat
+      voluptatem.
+    </p>
+    <p class="blog-repeat-content-header">Header #1:</p>
+    <p class="blog-repeat-content-desc">
+      Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+      consectetur, adipisci velit, sed quia non numquam eius modi
+      tempora incidunt ut labore et dolore magnam aliquam quaerat
+      voluptatem.
+    </p>
+  </div>
+  <div class="blog-repeat-content-two"></div>
+</div>
+</div>
+`;
+
+var blogTwoContent = `<div class="blog-two">
+<div class="blog-banner">
+  <div class="blog-banner-date">
+    <span>30</span>
+    <p>JUL</p>
+  </div>
+</div>
+<div class="blog-repeat-content">
+  <div class="blog-repeat-content-one">
+    <p class="blog-repeat-content-header">Header #1:</p>
+    <p class="blog-repeat-content-desc">
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+      accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+      quae ab illo inventore veritatis et quasi architecto beatae vitae
+      dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+      aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+      eos qui ratione voluptatem sequi nesciunt.
+    </p>
+    <p class="blog-repeat-content-desc">
+      Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+      consectetur, adipisci velit, sed quia non numquam eius modi
+      tempora incidunt ut labore et dolore magnam aliquam quaerat
+      voluptatem.
+    </p>
+    <p class="blog-repeat-content-header">Header #1:</p>
+    <p class="blog-repeat-content-desc">
+      Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+      consectetur, adipisci velit, sed quia non numquam eius modi
+      tempora incidunt ut labore et dolore magnam aliquam quaerat
+      voluptatem.
+    </p>
+  </div>
+  <div class="blog-repeat-content-two"></div>
+</div>
+</div>`;
+
+var blogThreeContent = `<div class="blog-three">
+<div class="blog-banner">
+  <div class="blog-banner-date">
+    <span>30</span>
+    <p>AUG</p>
+  </div>
+</div>
+<div class="blog-repeat-content">
+  <div class="blog-repeat-content-one">
+    <p class="blog-repeat-content-header">Header #1:</p>
+    <p class="blog-repeat-content-desc">
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+      accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+      quae ab illo inventore veritatis et quasi architecto beatae vitae
+      dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+      aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+      eos qui ratione voluptatem sequi nesciunt.
+    </p>
+    <p class="blog-repeat-content-desc">
+      Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+      consectetur, adipisci velit, sed quia non numquam eius modi
+      tempora incidunt ut labore et dolore magnam aliquam quaerat
+      voluptatem.
+    </p>
+    <p class="blog-repeat-content-header">Header #1:</p>
+    <p class="blog-repeat-content-desc">
+      Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+      consectetur, adipisci velit, sed quia non numquam eius modi
+      tempora incidunt ut labore et dolore magnam aliquam quaerat
+      voluptatem.
+    </p>
+  </div>
+  <div class="blog-repeat-content-two"></div>
+</div>
+</div>`;
+
+var blogFourContent = `<div class="blog-four">
+<div class="blog-banner">
+  <div class="blog-banner-date">
+    <span>23</span>
+    <p>NOV</p>
+  </div>
+</div>
+<div class="blog-repeat-content">
+  <div class="blog-repeat-content-one">
+    <p class="blog-repeat-content-header">Header #1:</p>
+    <p class="blog-repeat-content-desc">
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+      accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+      quae ab illo inventore veritatis et quasi architecto beatae vitae
+      dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+      aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+      eos qui ratione voluptatem sequi nesciunt.
+    </p>
+    <p class="blog-repeat-content-desc">
+      Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+      consectetur, adipisci velit, sed quia non numquam eius modi
+      tempora incidunt ut labore et dolore magnam aliquam quaerat
+      voluptatem.
+    </p>
+    <p class="blog-repeat-content-header">Header #1:</p>
+    <p class="blog-repeat-content-desc">
+      Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+      consectetur, adipisci velit, sed quia non numquam eius modi
+      tempora incidunt ut labore et dolore magnam aliquam quaerat
+      voluptatem.
+    </p>
+  </div>
+  <div class="blog-repeat-content-two"></div>
+</div>
+</div>`;
+
+var blogFiveContent = `<div class="blog-five">
+<div class="blog-banner">
+  <div class="blog-banner-date">
+    <span>23</span>
+    <p>DEC</p>
+  </div>
+</div>
+<div class="blog-repeat-content">
+  <div class="blog-repeat-content-one">
+    <p class="blog-repeat-content-header">Header #1:</p>
+    <p class="blog-repeat-content-desc">
+      Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+      accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+      quae ab illo inventore veritatis et quasi architecto beatae vitae
+      dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+      aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+      eos qui ratione voluptatem sequi nesciunt.
+    </p>
+    <p class="blog-repeat-content-desc">
+      Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+      consectetur, adipisci velit, sed quia non numquam eius modi
+      tempora incidunt ut labore et dolore magnam aliquam quaerat
+      voluptatem.
+    </p>
+    <p class="blog-repeat-content-header">Header #1:</p>
+    <p class="blog-repeat-content-desc">
+      Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+      consectetur, adipisci velit, sed quia non numquam eius modi
+      tempora incidunt ut labore et dolore magnam aliquam quaerat
+      voluptatem.
+    </p>
+  </div>
+  <div class="blog-repeat-content-two"></div>
 </div>
 </div>`;
 
