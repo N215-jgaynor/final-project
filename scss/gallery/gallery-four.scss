@@ -15,35 +15,46 @@
   @include galleryText;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1100px) {
   .gallery-four {
-    max-width: 80%;
+    .gallery-desc {
+      justify-content: space-around;
+    }
   }
 }
 
-@media screen and (max-width: 1175px) {
+@media screen and (max-width: 980px) {
   .gallery-four {
     .gallery-banner {
       @include galleryBanner(
-        $site-red,
-        "../images/gallery/2.jpeg",
+        $site-purple,
+        "../images/gallery/4.jpg",
         110px,
         35px,
         178px
       );
     }
+    .gallery-desc {
+      .gallery-desc-left {
+        width: 400px;
+      }
+
+      .gallery-desc-right {
+        width: 361px;
+      }
+    }
   }
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 915px) {
   .gallery-four {
     .gallery-banner {
       @include galleryBanner(
-        $site-red,
-        "../images/gallery/2.jpeg",
-        80px,
-        35px,
-        205px
+        $site-purple,
+        "../images/gallery/4.jpg",
+        100px,
+        25px,
+        186px
       );
     }
   }
@@ -53,12 +64,22 @@
   .gallery-four {
     .gallery-banner {
       @include galleryBanner(
-        $site-red,
-        "../images/gallery/2.jpeg",
-        70px,
-        20px,
-        215px
+        $site-purple,
+        "../images/gallery/4.jpg",
+        80px,
+        25px,
+        204px
       );
+    }
+
+    .gallery-desc {
+      .gallery-desc-left {
+        max-width: 350px;
+      }
+
+      .gallery-desc-right {
+        max-width: 311px;
+      }
     }
   }
 }

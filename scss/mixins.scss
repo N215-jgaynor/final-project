@@ -61,10 +61,10 @@
 
 @mixin galleryText() {
   .gallery-desc {
+    min-height: 133px;
+    max-width: $content-width;
     display: flex;
     justify-content: space-between;
-    min-height: 133px;
-    width: $content-width;
     margin-top: 50.5px;
     font-family: $secondary-font;
     font-weight: lighter;
@@ -72,11 +72,11 @@
     // why is this so dark? not sure how to unlock the lighter fonts
 
     .gallery-desc-left {
-      width: 490px;
+      max-width: 490px;
     }
 
     .gallery-desc-right {
-      width: 451px;
+      max-width: 451px;
     }
   }
 }
