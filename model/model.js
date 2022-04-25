@@ -1,0 +1,164 @@
+var homeContent = `<div class="home">
+<div class="home-banner">
+  <h1>Header goes here</h1>
+  <p class="banner-second-text">Less important text goes here</p>
+  <p class="banner-third-text">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat
+    aliquid minus nemo sed est.
+  </p>
+  <div class="banner-button">
+    <p>Read More</p>
+  </div>
+</div>
+<div class="home-content-text">
+  <p class="home-content-text-paragraph">
+    “Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+    accusantium doloremque laudantium totam rem aperiam eaque ipsa quae
+    ab illo inventore veritatis et quasi architecto beatae vitae dicta
+    sunt explicabo. Iste natus error sit voluptatem accusantium
+    doloremque laudantium totam rem aperiam eaque ipsa quae ab illo
+    inventore veritatis et quasi architecto beatae vitae dicta sunt
+    explicabo"
+  </p>
+  <h1>John Smith</h1>
+  <p class="home-content-text-desc">Corporation CEO, books author.</p>
+</div>
+<div class="home-events">
+  <div class="event-header">
+    <p>UPCOMING EVENTS:</p>
+  </div>
+  <div class="event-header-underline"></div>
+  <div class="event-container">
+    <div class="event-box">
+      <div class="event-box-date">
+        <span>06</span>
+        <p>JUN</p>
+      </div>
+      <div class="event-box-text">
+        <p class="event-white-text">
+          Sed et persipiatis unde omnis iste natus
+        </p>
+        <p class="event-red-text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Aliquid temporibus quos aspernatur
+        </p>
+      </div>
+    </div>
+    <div class="event-box">
+      <div class="event-box-date">
+        <span>30</span>
+        <p>JUL</p>
+      </div>
+      <div class="event-box-text">
+        <p class="event-white-text">
+          Sed et persipiatis unde omnis iste natus
+        </p>
+        <p class="event-red-text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Aliquid temporibus quos aspernatur
+        </p>
+      </div>
+    </div>
+    <div class="event-box">
+      <div class="event-box-date">
+        <span>30</span>
+        <p>AUG</p>
+      </div>
+      <div class="event-box-text">
+        <p class="event-white-text">
+          Sed et persipiatis unde omnis iste natus
+        </p>
+        <p class="event-red-text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Aliquid temporibus quos aspernatur
+        </p>
+      </div>
+    </div>
+    <div class="event-box">
+      <div class="event-box-date">
+        <span>23</span>
+        <p>NOV</p>
+      </div>
+      <div class="event-box-text">
+        <p class="event-white-text">
+          Sed et persipiatis unde omnis iste natus
+        </p>
+        <p class="event-red-text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Aliquid temporibus quos aspernatur
+        </p>
+      </div>
+    </div>
+    <div class="event-box">
+      <div class="event-box-date">
+        <span>23</span>
+        <p>DEC</p>
+      </div>
+      <div class="event-box-text">
+        <p class="event-white-text">
+          Sed et persipiatis unde omnis iste natus
+        </p>
+        <p class="event-red-text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Aliquid temporibus quos aspernatur
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>`;
+var aboutContent = `<div class="about">
+<div class="about-banner">
+  <p>OUR HISTORY:</p>
+</div>
+<div class="about-banner-header-underline"></div>
+<p class="about-desc">
+  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+  accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+  ab illo inventore veritatis et quasi architecto beatae vitae dicta
+  sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+  aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+  qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
+  dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
+  quia non numquam eius modi tempora incidunt ut labore et dolore magnam
+  aliquam quaerat voluptatem.
+</p>
+</div>
+`;
+var galleryContent = `<div class="gallery">
+<div class="gallery-header">
+  <p>GALLERY:</p>
+</div>
+<div class="gallery-header-underline"></div>
+<div class="gallery-container">
+  <div class="gallery-container-top">
+    <div class="gallery-container-one"></div>
+    <div class="gallery-container-two"></div>
+    <div class="gallery-container-three"></div>
+  </div>
+  <div class="gallery-container-bottom">
+    <div class="gallery-container-four"></div>
+    <div class="gallery-container-five"></div>
+  </div>
+</div>
+</div>
+`;
+
+export function modelPageName(pgName) {
+  console.log(pgName);
+
+  $("#app").html(eval(pgName));
+  if (pgName == "homeContent") {
+    // console.log("hi");
+    $("nav").removeClass("black-nav").addClass("white-nav");
+  } else {
+    $("nav").removeClass("white-nav").addClass("black-nav");
+  }
+
+  try {
+    eval(pgName);
+    $("app").html(eval(pgName));
+  } catch (e) {
+    console.log("hello", e);
+  }
+}
