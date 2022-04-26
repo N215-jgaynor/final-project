@@ -24,89 +24,93 @@ var homeContent = `<div class="home">
   <p class="home-content-text-desc">Corporation CEO, books author.</p>
 </div>
 <div class="home-events">
-<div class="event-header">
-  <p>UPCOMING EVENTS:</p>
-</div>
-<div class="event-header-underline"></div>
-<div class="event-container">
-  <a href="#blogOne" class="event-box">
-    <div class="event-box-date">
-      <span>06</span>
-      <p>JUN</p>
+  <div class="event-header">
+    <p>UPCOMING EVENTS:</p>
+  </div>
+  <div class="event-header-underline"></div>
+  <div class="event-container">
+    <div class="event-box-top">
+      <a href="#blogOne" class="event-box">
+        <div class="event-box-date">
+          <span>06</span>
+          <p>JUN</p>
+        </div>
+        <div class="event-box-text">
+          <p class="event-white-text">
+            Sed et persipiatis unde omnis iste natus
+          </p>
+          <p class="event-red-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Aliquid temporibus quos aspernatur
+          </p>
+        </div>
+      </a>
+      <a href="#blogTwo" class="event-box">
+        <div class="event-box-date">
+          <span>30</span>
+          <p>JUL</p>
+        </div>
+        <div class="event-box-text">
+          <p class="event-white-text">
+            Sed et persipiatis unde omnis iste natus
+          </p>
+          <p class="event-red-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Aliquid temporibus quos aspernatur
+          </p>
+        </div>
+      </a>
+      <a href="#blogThree" class="event-box">
+        <div class="event-box-date">
+          <span>30</span>
+          <p>AUG</p>
+        </div>
+        <div class="event-box-text">
+          <p class="event-white-text">
+            Sed et persipiatis unde omnis iste natus
+          </p>
+          <p class="event-red-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Aliquid temporibus quos aspernatur
+          </p>
+        </div>
+      </a>
     </div>
-    <div class="event-box-text">
-      <p class="event-white-text">
-        Sed et persipiatis unde omnis iste natus
-      </p>
-      <p class="event-red-text">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Aliquid temporibus quos aspernatur
-      </p>
-    </div>
-  </a>
-  <a href="#blogTwo" class="event-box">
-    <div class="event-box-date">
-      <span>30</span>
-      <p>JUL</p>
-    </div>
-    <div class="event-box-text">
-      <p class="event-white-text">
-        Sed et persipiatis unde omnis iste natus
-      </p>
-      <p class="event-red-text">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Aliquid temporibus quos aspernatur
-      </p>
-    </div>
-  </a>
-  <a href="#blogThree" class="event-box">
-    <div class="event-box-date">
-      <span>30</span>
-      <p>AUG</p>
-    </div>
-    <div class="event-box-text">
-      <p class="event-white-text">
-        Sed et persipiatis unde omnis iste natus
-      </p>
-      <p class="event-red-text">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Aliquid temporibus quos aspernatur
-      </p>
-    </div>
-  </a>
-  <a href="#blogFour" class="event-box">
-    <div class="event-box-date">
-      <span>23</span>
-      <p>NOV</p>
-    </div>
-    <div class="event-box-text">
-      <p class="event-white-text">
-        Sed et persipiatis unde omnis iste natus
-      </p>
-      <p class="event-red-text">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Aliquid temporibus quos aspernatur
-      </p>
-    </div>
-  </a>
-  <a href="#blogFive" class="event-box">
-    <div class="event-box-date">
-      <span>23</span>
-      <p>DEC</p>
-    </div>
-    <div class="event-box-text">
-      <p class="event-white-text">
-        Sed et persipiatis unde omnis iste natus
-      </p>
-      <p class="event-red-text">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Aliquid temporibus quos aspernatur
-      </p>
-    </div>
-  </a>
-</div>
-</div>
 
+    <div class="event-box-bottom">
+      <a href="#blogFour" class="event-box">
+        <div class="event-box-date">
+          <span>23</span>
+          <p>NOV</p>
+        </div>
+        <div class="event-box-text">
+          <p class="event-white-text">
+            Sed et persipiatis unde omnis iste natus
+          </p>
+          <p class="event-red-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Aliquid temporibus quos aspernatur
+          </p>
+        </div>
+      </a>
+      <a href="#blogFive" class="event-box">
+        <div class="event-box-date">
+          <span>23</span>
+          <p>DEC</p>
+        </div>
+        <div class="event-box-text">
+          <p class="event-white-text">
+            Sed et persipiatis unde omnis iste natus
+          </p>
+          <p class="event-red-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Aliquid temporibus quos aspernatur
+          </p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
 </div>`;
 var aboutContent = `<div class="about">
 <div class="about-banner">
