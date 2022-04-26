@@ -54,7 +54,6 @@
 
     .gallery-banner-text-desc {
       font-size: $galBannerHeaderSize;
-      // margin-top: 149px;
       margin-top: $galBannerHeaderMarginT;
       margin-left: $galBannerHeaderMarginL;
     }
@@ -71,7 +70,6 @@
     font-family: $secondary-font;
     font-weight: lighter;
     font-style: italic;
-    // why is this so dark? not sure how to unlock the lighter fonts
 
     .gallery-desc-left {
       max-width: 490px;

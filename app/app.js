@@ -10,8 +10,6 @@ function route() {
   }
 
   MODEL.modelPageName(pageContent);
-
-  //   I don't know why this isn't working but it isn't working
 }
 
 function initListeners() {

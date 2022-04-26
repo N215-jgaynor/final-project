@@ -24,88 +24,89 @@ var homeContent = `<div class="home">
   <p class="home-content-text-desc">Corporation CEO, books author.</p>
 </div>
 <div class="home-events">
-  <div class="event-header">
-    <p>UPCOMING EVENTS:</p>
-  </div>
-  <div class="event-header-underline"></div>
-  <div class="event-container">
-    <div class="event-box">
-      <div class="event-box-date">
-        <span>06</span>
-        <p>JUN</p>
-      </div>
-      <div class="event-box-text">
-        <p class="event-white-text">
-          Sed et persipiatis unde omnis iste natus
-        </p>
-        <p class="event-red-text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Aliquid temporibus quos aspernatur
-        </p>
-      </div>
-    </div>
-    <div class="event-box">
-      <div class="event-box-date">
-        <span>30</span>
-        <p>JUL</p>
-      </div>
-      <div class="event-box-text">
-        <p class="event-white-text">
-          Sed et persipiatis unde omnis iste natus
-        </p>
-        <p class="event-red-text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Aliquid temporibus quos aspernatur
-        </p>
-      </div>
-    </div>
-    <div class="event-box">
-      <div class="event-box-date">
-        <span>30</span>
-        <p>AUG</p>
-      </div>
-      <div class="event-box-text">
-        <p class="event-white-text">
-          Sed et persipiatis unde omnis iste natus
-        </p>
-        <p class="event-red-text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Aliquid temporibus quos aspernatur
-        </p>
-      </div>
-    </div>
-    <div class="event-box">
-      <div class="event-box-date">
-        <span>23</span>
-        <p>NOV</p>
-      </div>
-      <div class="event-box-text">
-        <p class="event-white-text">
-          Sed et persipiatis unde omnis iste natus
-        </p>
-        <p class="event-red-text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Aliquid temporibus quos aspernatur
-        </p>
-      </div>
-    </div>
-    <div class="event-box">
-      <div class="event-box-date">
-        <span>23</span>
-        <p>DEC</p>
-      </div>
-      <div class="event-box-text">
-        <p class="event-white-text">
-          Sed et persipiatis unde omnis iste natus
-        </p>
-        <p class="event-red-text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Aliquid temporibus quos aspernatur
-        </p>
-      </div>
-    </div>
-  </div>
+<div class="event-header">
+  <p>UPCOMING EVENTS:</p>
 </div>
+<div class="event-header-underline"></div>
+<div class="event-container">
+  <a href="#blogOne" class="event-box">
+    <div class="event-box-date">
+      <span>06</span>
+      <p>JUN</p>
+    </div>
+    <div class="event-box-text">
+      <p class="event-white-text">
+        Sed et persipiatis unde omnis iste natus
+      </p>
+      <p class="event-red-text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Aliquid temporibus quos aspernatur
+      </p>
+    </div>
+  </a>
+  <a href="#blogTwo" class="event-box">
+    <div class="event-box-date">
+      <span>30</span>
+      <p>JUL</p>
+    </div>
+    <div class="event-box-text">
+      <p class="event-white-text">
+        Sed et persipiatis unde omnis iste natus
+      </p>
+      <p class="event-red-text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Aliquid temporibus quos aspernatur
+      </p>
+    </div>
+  </a>
+  <a href="#blogThree" class="event-box">
+    <div class="event-box-date">
+      <span>30</span>
+      <p>AUG</p>
+    </div>
+    <div class="event-box-text">
+      <p class="event-white-text">
+        Sed et persipiatis unde omnis iste natus
+      </p>
+      <p class="event-red-text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Aliquid temporibus quos aspernatur
+      </p>
+    </div>
+  </a>
+  <a href="#blogFour" class="event-box">
+    <div class="event-box-date">
+      <span>23</span>
+      <p>NOV</p>
+    </div>
+    <div class="event-box-text">
+      <p class="event-white-text">
+        Sed et persipiatis unde omnis iste natus
+      </p>
+      <p class="event-red-text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Aliquid temporibus quos aspernatur
+      </p>
+    </div>
+  </a>
+  <a href="#blogFive" class="event-box">
+    <div class="event-box-date">
+      <span>23</span>
+      <p>DEC</p>
+    </div>
+    <div class="event-box-text">
+      <p class="event-white-text">
+        Sed et persipiatis unde omnis iste natus
+      </p>
+      <p class="event-red-text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Aliquid temporibus quos aspernatur
+      </p>
+    </div>
+  </a>
+</div>
+</div>
+
 </div>`;
 var aboutContent = `<div class="about">
 <div class="about-banner">
@@ -142,7 +143,6 @@ var galleryContent = `<div class="gallery">
   </div>
 </div>
 </div>`;
-
 var galleryOneContent = `<div class="gallery-one">
 <div class="gallery-banner">
   <div class="gallery-banner-text">
@@ -171,7 +171,6 @@ var galleryOneContent = `<div class="gallery-one">
   </div>
 </div>
 </div>`;
-
 var galleryTwoContent = `<div class="gallery-two">
 <div class="gallery-banner">
   <div class="gallery-banner-text">
@@ -200,7 +199,6 @@ var galleryTwoContent = `<div class="gallery-two">
   </div>
 </div>
 </div>`;
-
 var galleryThreeContent = `<div class="gallery-three">
 <div class="gallery-banner">
   <div class="gallery-banner-text">
@@ -230,7 +228,6 @@ var galleryThreeContent = `<div class="gallery-three">
 </div>
 </div>
 `;
-
 var galleryFourContent = `<div class="gallery-four">
 <div class="gallery-banner">
   <div class="gallery-banner-text">
@@ -260,7 +257,6 @@ var galleryFourContent = `<div class="gallery-four">
 </div>
 </div>
 `;
-
 var galleryFiveContent = `<div class="gallery-five">
 <div class="gallery-banner">
   <div class="gallery-banner-text">
@@ -289,7 +285,6 @@ var galleryFiveContent = `<div class="gallery-five">
   </div>
 </div>
 </div>`;
-
 var blogContent = `<div class="blog">
 <div class="blog-header">
   <p>BLOG:</p>
@@ -404,7 +399,6 @@ var blogContent = `<div class="blog">
   </div>
 </div>
 </div>`;
-
 var blogOneContent = `<div class="blog-one">
 <div class="blog-banner">
   <div class="blog-banner-date">
@@ -441,7 +435,6 @@ var blogOneContent = `<div class="blog-one">
 </div>
 </div>
 `;
-
 var blogTwoContent = `<div class="blog-two">
 <div class="blog-banner">
   <div class="blog-banner-date">
@@ -477,7 +470,6 @@ var blogTwoContent = `<div class="blog-two">
   <div class="blog-repeat-content-two"></div>
 </div>
 </div>`;
-
 var blogThreeContent = `<div class="blog-three">
 <div class="blog-banner">
   <div class="blog-banner-date">
@@ -513,7 +505,6 @@ var blogThreeContent = `<div class="blog-three">
   <div class="blog-repeat-content-two"></div>
 </div>
 </div>`;
-
 var blogFourContent = `<div class="blog-four">
 <div class="blog-banner">
   <div class="blog-banner-date">
@@ -549,7 +540,6 @@ var blogFourContent = `<div class="blog-four">
   <div class="blog-repeat-content-two"></div>
 </div>
 </div>`;
-
 var blogFiveContent = `<div class="blog-five">
 <div class="blog-banner">
   <div class="blog-banner-date">
@@ -585,13 +575,51 @@ var blogFiveContent = `<div class="blog-five">
   <div class="blog-repeat-content-two"></div>
 </div>
 </div>`;
+var contactContent = `<div class="contact">
+<div class="contact-header">
+  <p>CONTACT US:</p>
+</div>
+<div class="contact-header-underline"></div>
+<div class="contact-content">
+  <div class="contact-form">
+    <input
+      type="text"
+      class="contact-form-regular"
+      id="name"
+      placeholder="Your name..."
+    />
+    <input
+      type="email"
+      class="contact-form-regular"
+      id="email"
+      placeholder="Email Address..."
+    />
+    <input
+      type="text"
+      class="contact-form-regular"
+      id="company"
+      placeholder="Company..."
+    />
+    <input
+      type="text"
+      class="contact-form-large"
+      id="message"
+      placeholder="Message..."
+    />
+    <div class="contact-form-submit">
+      <p>SEND MESSAGE</p>
+    </div>
+  </div>
+  <div class="contact-img"></div>
+</div>
+</div>
+`;
 
 export function modelPageName(pgName) {
   console.log(pgName);
 
   $("#app").html(eval(pgName));
   if (pgName == "homeContent") {
-    // console.log("hi");
     $("nav").removeClass("black-nav").addClass("white-nav");
   } else {
     $("nav").removeClass("white-nav").addClass("black-nav");

@@ -243,6 +243,7 @@ p {
   min-height: 124px;
   display: flex;
   margin: auto 5px;
+  text-decoration: none;
 }
 .home-events .event-container .event-box .event-box-date {
   min-width: 60px;
@@ -1439,6 +1440,89 @@ p {
 @media screen and (max-width: 900px) {
   .blog-five {
     max-width: 720px;
+  }
+}
+.contact {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.contact .contact-header {
+  margin: 65.5px auto 10.5px 0;
+  font-family: GillSans-Regular;
+  font-size: 25px;
+}
+.contact .contact-header-underline {
+  width: 229px;
+  height: 2px;
+  background-color: black;
+}
+.contact .contact-content {
+  margin: 65.5px auto 90px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.contact .contact-content .contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 529px;
+  min-height: 100px;
+  font-family: GillSans-Regular;
+}
+.contact .contact-content .contact-form .contact-form-regular {
+  height: 60px;
+  background-color: #f5f5f5;
+  padding: 21px;
+  border: none;
+  margin-bottom: 21px;
+}
+.contact .contact-content .contact-form .contact-form-large {
+  height: 199px;
+  background-color: #f5f5f5;
+  padding: 21px;
+  border: none;
+  margin-bottom: 21px;
+}
+.contact .contact-content .contact-form .contact-form-submit {
+  height: 60px;
+  width: 167px;
+  background-color: #ee4367;
+  color: white;
+  cursor: pointer;
+  font-family: GillSans-Regular;
+  text-align: center;
+  display: inline;
+  text-decoration: none;
+}
+.contact .contact-content .contact-form .contact-form-submit p {
+  margin-top: 22px;
+}
+.contact .contact-content .contact-img {
+  width: 400px;
+  height: 442px;
+  background-image: url(../images/map.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1280px) {
+  .contact {
+    max-width: 80%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .contact .contact-content {
+    flex-direction: column;
+  }
+  .contact .contact-content .contact-form {
+    margin: 0 auto;
+  }
+  .contact .contact-content .contact-form .contact-form-submit {
+    margin: 0 auto;
+  }
+  .contact .contact-content .contact-img {
+    margin: 21px auto 0 auto;
   }
 }
 footer {
